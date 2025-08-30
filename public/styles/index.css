@@ -1,0 +1,43 @@
+@import 'variables.css';
+
+body {
+    font-family: var(--sans);
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+    /* outline: 6px solid rgb(124, 56, 56); */
+    outline: 6px solid pink;
+    outline-offset: -6px;
+}
+
+main img {
+    height: auto;
+    width: 75%;
+}
+
+@media (min-width: 768px) {
+   
+    main img {
+        height: auto;
+        width: 25%;
+    }
+}
+
+main p {
+    margin-bottom: 2rem;
+}
+
+.botao {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: pink;
+    padding: 1rem;
+    border-radius: 15px;
+}

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Open+Sans&family=Tinos&display=swap');
+
+:root {
+    --caveat: 'Caveat', cursive;
+    --sans: 'Open Sans', sans-serif;
+    --tinos: 'Tinos', serif; 
+
+    --primary-color: #131316;
+    --secondary-color: #1a1a1f;
+    /* --primary-color: #35281d; */
+    --color: #ffffff;
+    --text-font: var(--tinos); 
+    --title-font: var(--caveat);
+}

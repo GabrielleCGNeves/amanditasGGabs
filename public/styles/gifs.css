@@ -1,0 +1,45 @@
+@import 'variables.css';
+
+body {
+    background-color: var(--primary-color);
+    padding: 0;
+    margin: 0;
+}
+
+.images img {
+    margin: 3rem 0;
+    height: auto;
+    width: 100%;
+}
+
+.button {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    width: 100vw;
+    margin-top: 3rem;
+}
+
+.button a {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    font-family: var(--sans);
+    font-size: 1.25rem;
+}
+
+@media (min-width: 768px) {
+    .images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .images img {
+        height: auto;
+        width: 30%;
+    }
+    
+}

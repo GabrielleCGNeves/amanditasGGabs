@@ -1,0 +1,73 @@
+@import 'variables.css';
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: var(--primary-color);
+    color: var(--color);
+    font-family: var(--text-font);
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+section {
+    padding: 0 1.5rem;
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+figure {
+    margin: 1rem 0;
+}
+
+figure img {
+    height: auto;
+    width: 100%;
+}
+
+figure figcaption {
+    font-size: 1rem;
+}
+
+.background-one {
+    background-color: var(--primary-color);
+}
+.background-two {
+    background-color: var(--secondary-color);
+}
+
+.title {
+    font-family: var(--title-font);
+    font-size: 3.5rem;
+}
+
+.hidden {
+    color: rgba(255, 255, 255, 0);
+    filter: blur(5px);
+    transition: 1s;
+}
+
+.show {
+    color: rgba(255, 255, 255, 1);
+    filter: blur(0);
+}
+
+.final {
+    text-align: left;
+}
+
+
+@media (min-width: 768px) {
+   
+    figure img {
+        height: auto;
+        width: 50%;
+    }
+
+    .gif {
+        height: auto;
+        width: 100%;
+    }
+}
